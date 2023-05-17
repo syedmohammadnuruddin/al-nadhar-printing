@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-weight: 600;
+}
+h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+}
+h5{
+    font-size: 17px;
+    font-weight: 700;
+    padding-bottom: 3px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: green !important;
+}
+.up-menu {
+    
+    padding: 8px 0;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #2a4696 0%, #189dd9 50%,#27529f 100%);
+}
+
+.up-menu-left span {
+    padding-right: 10px;
+}
+
+.up-menu-left span i {
+    padding-right: 5px;
+}
+
+.up-menu-right a i {
+    font-size: 20px;
+    padding-left: 20px;
+    color: #ffffff;
+}
+
+    /* Main Menu */
+.navbar-brand{
+    width: 120px;
+    height: 60px;
+    padding-top: 0;
+    margin-top: -7px;
+    margin-bottom: 27px;
+}
+.navbar-brand img{
+    background-color: transparent;
+}
+
+
+.navbar a:hover {
+    color: black !important;
+    background-color: #ddd;
+}
+.navbar-brand:hover{
+    background-color: #ffffff !important;
+}
+ .navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: blueviolet !important;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 15px !important;
+}
+
+
+ /* carousel item */
+
+ .carousel-item img{
+    height: 80vh;
+ }
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: darkcyan;
+}
+
+/* Home Description Section */
+.home-description a{
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Products Section */
+.our-products .card{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+/* Client Slider */
+
+.slick-slide{
+    margin: 0 30px;
+}
+.slick-slide img{
+    width: 100%;
+
+}
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-slide img{
+    display: block;
+}
+.slick-initialized .slick-slide{
+    display: block;
+}
+.copy{
+    padding-top: 250px;
+}
+
+/* Parallax Section */
+.home-parallax{
+    position: relative;
+    opacity: 1;
+    background-image: url('../img/parallax2222.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 400px;
+    /*fixed = parallax
+      scroll = normal
+      */
+}
+.home-parallax-inner{
+    position:absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    
+}
+.home-parallax-inner button{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: darkorange;
+    margin: 5px 10px;
+    min-width: 250px;
+}
+
+.home-parallax-inner button a {
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.client-slider .div1{
+    background-color: blue;
+    width: 50px;
+    height: 20px;
+}
+
+/* Footer  */
+
+.footer{
+        /* background: #1554a5; */
+        background-image: linear-gradient(to right, #000000 0%, #0d52a1 50%,#000000 100%);
+    color: white;
+    padding: 30px 0;
+}
+.footer h5 {
+    font-size: 22px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.footer ul li i {
+    font-size: 13px;
+    padding-right: 8px;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+.footer-contact p {
+    margin: 0;
+}
+.footer .working-hours ul li{
+    padding-bottom: 5px;
+}
+
+
+/* About Us */
+.about-hero-image img{
+    width: 100%;
+    height: 400px;
+}
+
+.about-description p{
+    text-align: justify;
+}
+.about-description img{
+    height: 300px;
+}
+.about-description .first-img{
+    margin-top: 62px;
+}
+.about-description .second-img{
+    margin-top: 40px;
+    
+}
+
+/* Contact Us */
+.contact-hero-image img{
+    width: 100%;
+    height: 400px;
+}
+.contact-us p i {
+    font-size: 60px;
+    background-color: #1155A2;
+    padding: 15px;
+    color: #ffffff;
+    margin-bottom: -15px;
+}
+
+/* gallery */
+.gallery-container{
+	max-width: 1170px;
+	margin:auto;
+}
+.gallery-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+img{
+	max-width: 100%;
+	vertical-align: middle;
+}
+/*.gallery*/
+.gallery{
+	width: 100%;
+	display: block;
+	min-height: 100vh;
+	background-color: #2a2932;
+	padding: 100px 0;
+}
+.gallery .gallery-filter{
+	padding: 0 15px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.gallery .gallery-filter .filter-item{
+	color: #ffffff;
+    background-color: #1155A2;
+    padding: 10px;
+	font-size: 18px;
+    font-weight: 500;
+	text-transform: uppercase;
+	display: inline-block;
+	margin:10px 10px;
+	cursor: pointer;
+	border-bottom: 2px solid transparent;
+	line-height: 1.2;
+	transition: all 0.3s ease;
+}
+.gallery .gallery-filter .filter-item.active{
+    color: #ffffff;
+    border-color: none;
+    background-color: darkgoldenrod;
+    padding: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+.gallery .gallery-item{
+	width: calc(100% / 3);
+	padding: 15px;
+    
+}
+.gallery .gallery-item-inner img{
+	width: 100%;
+    max-height: 210px;
+    min-height: 210px;
+    padding: 3px;
+    background-color: yellowgreen;
+    
+}
+.gallery .gallery-item.show{
+	animation: fadeIn 0.5s ease;
+}
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.gallery .gallery-item.hide{
+	display: none;
+}
+
+/* Footer */
+.footer{
+    font-family: 'Arimo', sans-serif;
+}
+.footer p{
+    font-family: 'Arimo', sans-serif !important;
+}
+
+/* Maps and Contact Form */
+.map-contact-form.pb-5 input:focus, 
+.map-contact-form.pb-5 textarea:focus{
+    border: 1px solid green;
+    box-shadow: none;
+} 
+/* Quote Contact Form */
+.map-contact-form.pb-5.quote-contact-form {
+    background-color: antiquewhite;
+    padding-top: 50px;
+}
+.map-contact-form.pb-5.quote-contact-form input:focus, 
+.map-contact-form.pb-5.quote-contact-form textarea:focus{
+    border: 1px solid green;
+    box-shadow: none;
+} 
+
+/*responsive*/
+@media(max-width: 991px){
+	.gallery .gallery-item{
+		width: 50%;
+	}
+    .gallery .gallery-item-inner img{
+        max-height: 250px;
+        min-height: 250px;
+    }
+
+}
+@media(max-width: 767px){
+    .gallery .gallery-item{
+		width: 100%;
+	}	
+	.gallery .gallery-filter .filter-item{
+		margin-bottom: 10px;
+	}
+    .gallery .gallery-item-inner img{
+        max-height: 300px;
+        min-height: 300px;
+    }
+    .about-description .first-img{
+        margin-top: 22px;
+    }
+    .about-description .second-img{
+        margin-top: -30px;
+        margin-bottom: 30px;
+        
+    }
+
+}
+
+  
+/* resonsive */
+
+@media screen and (max-width:600px) {
+    .up-menu .row{
+        display: inline;
+    }
+    .up-menu-right>div{
+       
+        float: left !important;
+    }
+    .up-menu-left{
+        padding-bottom: 15px;
+    }
+    .up-menu-left span {
+        padding-left: 15px;
+    }
+}
+
+/* Products Section */
+@media screen and (max-width:768px) {
+    .our-products .card img{
+        height: 250px;
+    }
+    
+}
+
+
+/* responsive footer */
+
+@media screen and (max-width:568px) {
+    .up-menu{
+        padding: 0;
+        padding-bottom: 5px;
+    }
+    .home-description .home-description-inner {
+        padding-bottom: 20px;
+    }
+    
+    .home-description .home-description-inner h5 {
+        margin-bottom: 0;
+    }
+    
+    .home-description .home-description-inner p {
+        margin-bottom: 0;
+    }
+    .footer{
+        padding: 30px 20px;
+    }
+    .footer .footer-item{
+        padding-bottom: 20px;
+    }
+    .footer .footer-about, .footer .footer-contact{
+        padding-left: 25px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .footer .footer-contact{
+        padding-bottom: 20px;
+    }
+}
